@@ -488,30 +488,27 @@ Diretrizes obrigatórias:
 
       {/* Rodapé com assinatura pessoal */}
       <footer className="border-t border-[#E8D8C8] py-8">
-        <div className="mx-auto flex max-w-6xl flex-col items-center gap-2 px-6 text-center">
-          <div className="flex items-center gap-1.5">
-            <span
-              className="flex h-7 w-7 items-center justify-center rounded-full text-[13px]"
-              style={{ background: "#F3E4D4" }}
-              aria-hidden="true"
-            >
-              🐼
-            </span>
-            <Heart size={14} className="text-[#E4685D]" fill="#E4685D" />
-            <span
-              className="flex h-7 w-7 items-center justify-center rounded-full text-[13px]"
-              style={{ background: "#E8D8C8" }}
-              aria-hidden="true"
-            >
-              🐻
-            </span>
-          </div>
+        <div className="mx-auto flex max-w-6xl flex-nowrap items-center justify-center gap-1.5 px-4 text-center sm:gap-3 sm:px-6">
+          <Image
+            src="/images/bubu_dudu_v-removebg.png"
+            alt="Bubu e Dudu"
+            width={44}
+            height={38}
+            className="h-7 w-auto shrink-0 rounded-lg shadow-sm sm:h-9"
+          />
           <p
-            className="text-[18px] text-[#6B584C]"
+            className="whitespace-nowrap text-[13.5px] text-[#6B584C] sm:text-[18px]"
             style={{ fontFamily: "'Dancing Script', cursive" }}
           >
             para Minha Linda, All Duck Life 🦙💛
           </p>
+          <Image
+            src="/images/bubu_dudu_space-removebg.png"
+            alt="Bubu e Dudu"
+            width={38}
+            height={38}
+            className="h-7 w-7 shrink-0 rounded-lg shadow-sm sm:h-9 sm:w-9"
+          />
         </div>
       </footer>
     </div>
