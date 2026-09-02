@@ -500,7 +500,7 @@ Diretrizes obrigatórias:
             className="whitespace-nowrap text-[13.5px] text-[#6B584C] sm:text-[18px]"
             style={{ fontFamily: "'Dancing Script', cursive" }}
           >
-            para Minha Linda, All Duck Life 🦙💛
+            para Minha Linda, All Duck Life!
           </p>
           <Image
             src="/images/bubu_dudu_space-removebg.png"
