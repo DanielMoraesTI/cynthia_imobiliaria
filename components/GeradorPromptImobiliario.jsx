@@ -200,9 +200,11 @@ Diretrizes obrigatórias:
       ? `\n\nO cliente é internacional: depois do texto em português, apresenta também uma versão resumida em inglês, com o mesmo essencial e o mesmo CTA.`
       : "";
 
+    const factCheckNote = `\n\nNunca inventes dados, números ou factos que não te tenham sido fornecidos: se precisares de mais informações, dados ou detalhes para completar o texto com rigor, pergunta-me antes de continuar.`;
+
     const closing = `\n\nGera agora o texto completo, pronto a usar, sem comentários adicionais fora do próprio texto.`;
 
-    return persona + task + dataBlock + intlNote + closing;
+    return persona + task + dataBlock + intlNote + factCheckNote + closing;
   }, [agencyName, agentName, docType, formData, tone, international, filledSharedFields, filledExtraFields]);
 
   const displayedPrompt = viewingEntry ? viewingEntry.prompt : prompt;

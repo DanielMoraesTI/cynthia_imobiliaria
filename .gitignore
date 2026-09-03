@@ -1,1 +1,19 @@
+# dependências
 node_modules
+
+# build do Next.js
+.next
+out
+
+# variáveis de ambiente
+.env*.local
+.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor / SO
+.vscode
+.DS_Store
